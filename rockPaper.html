@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper</title>
+  </head>
+
+  <body>
+    <script>
+      function computerPlay() {
+        const chooseRandom = ["Rock", "Paper", "Scissors"];
+        const random = chooseRandom[Math.floor(Math.random() * chooseRandom.length)];
+        return random;
+      }
+
+      function playerRound(playerSelection, computerSelection) {
+        playerSelection.toLowerCase();
+        computerSelection.toLowerCase();
+        return "You Lose! Paper beats Rock";
+      }
+
+      function game() {
+        const playerSelection = 'rock';
+        const computerSelection = computerPlay();
+
+        return playerRound(playerSelection, computerSelection)
+      }
+
+    </script>
+  </body>
+
+</html>
