@@ -17,7 +17,14 @@
     "yeoman-generator"
   ],
   "devDependencies": {
+<<<<<<< HEAD
     "eslint": "^4.19.1",
+=======
+    "yeoman-test": "^1.6.0",
+    "yeoman-assert": "^3.0.0",
+    "nsp": "^2.6.3",
+    "eslint": "^4.18.2",
+>>>>>>> 76cbde694f0d6e08dc81b0e5ec157be364355878
     "eslint-config-xo-space": "^0.16.0",
     "jest": "^25.0.0",
     "jest-cli": "^25.0.0",
